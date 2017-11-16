@@ -1,0 +1,64 @@
+==========================================================================================
+                 Canuck WordPress Theme Change Log
+==========================================================================================
+Version 1.0.6
+-----------------------------------
+- fixed some social icon styles
+- translated Read More in portfolio-content.php
+
+Version 1.0.5
+-----------------------------------
+- removed image stacking on masonry pages by removing scroll reveal for those pages
+- added 'layout' handle to grid masonry images loaded doc ready script
+- modified styles and setup for template-masonry.php to fix touch device hover response
+- modifed css for masonry portfolio to fix touch device hover response
+- removed password from backup page and set page type to private.
+- modified backup page so post content meets specified requirements
+- modified Pinit pin to the standard round Pin, custom pins won't work on the iPhone
+- changed all overlays to width or height as opacity will not work on iphones
+- modified header menu css for better positioning and responsive view.
+- optimized customizer code
+- aded kha-customizer-controls.js to, imporove the user option experience
+- sections of options are now toggles on/off, and are in some cases conditional
+- fixed bug in page sidebar selection meta
+
+Version 1.0.4
+-----------------------------------
+- modified classic portfolio pages to do_shortcode( $post_content ); before echoing the content.
+- fixed a css bug in the recent posts widget
+- fixed the date display in the recent posts widget, all posts were displaying the same date.
+- adjusted the option backup system to only include content created by the options, removed formatting as well.
+
+Version 1.0.3
+-----------------------------------
+- changed background logo position to center
+- fixed htpps typo for enqueue font 3
+- modified canuck_styles() to better handle the order styles are loaded in child themes.
+- added Rock Salt and Playfair Display SC Google fonts
+
+Version 1.0.2
+-----------------------------------
+- changed author and theme url's to https://
+- moved threaded comments script load to canuck_load_js()
+- added is_admin() condition to excerpt function
+- fixed title displays for Category and Tag pages
+- fixed margin problem on search.php for pages
+- added select whitelisting for all select options except category selects
+- changed post spacing on search results
+- modified media grabber system to canuck prefix
+- changed home_url() to home_url( '/' )
+- fixed some translation misses
+- added validation check to hex to rgb function
+
+Version 1.0.1
+-----------------------------------
+- fixed bug in smooth-scroll-scripts.js fucus->focus :)
+- Added Pinterest PinIt button throughout the theme.
+- Added a Masonry custom template.
+- Added a Masonry page to the Portfolio Options.
+
+
+Version 1.0.0
+-----------------------------------
+- original release
+
